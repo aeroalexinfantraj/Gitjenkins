@@ -29,7 +29,8 @@ public class Test1 {
 		element.submit();
 	
 	File src=	((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
-	FileHandler.copy(src, new File("C:/Selenium Work Space/GitJenkinsTest/screenshot/goolge.png"));	
+	FileHandler.copy(src, new File("C:/Selenium Work Space/GitJenkinsTest/screenshot/goolge.png"));
+	wd.quit();
 	}
 	
 }

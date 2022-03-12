@@ -30,6 +30,7 @@ public class Test2 {
 	
 	File src=	((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
 	FileHandler.copy(src, new File("C:/Selenium Work Space/GitJenkinsTest/screenshot/bing.png"));	
+	wd.quit();
 	}
 	
 }
